@@ -44,7 +44,13 @@ font-size: 20px;
 }
 
 
-
+@keyframes example {
+  0%   {background-color:red; left:0px; ;}
+  25%  {background-color:yellow; left:200px; }
+  50%  {background-color:blue; left:200px; ;}
+  75%  {background-color:green; left:0px; ;}
+  100% {background-color:red; left:0px; ;}
+}
 .container {
   position: relative;
   max-width: 800px; 
@@ -419,3 +425,6 @@ grid-template-columns: repeat(1, 1fr);
     grid-template-columns: repeat(1, 1fr);
     
   }
+
+
+
