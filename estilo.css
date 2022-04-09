@@ -43,6 +43,11 @@ text-decoration: none;
 font-size: 20px;
 }
 
+.robot{
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
 
 @keyframes example {
   0%   {background-color:red; left:0px; ;}
