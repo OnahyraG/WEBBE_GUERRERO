@@ -56,8 +56,8 @@ let Pago = prompt(`
     2. ${metodo2}
     3. ${metodo3}`);
 
-let nuevoprecio = resta(suma(precio, iva (precio)));
-console.log(nuevoprecio);
+let nuevoprecio = (suma(precio, iva (precio)));
+alert("su monto a pagar es" + nuevoprecio);
 
 
 
