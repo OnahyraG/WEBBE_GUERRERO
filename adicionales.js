@@ -9,7 +9,7 @@ class servicio {
 
 }
 
-const servicio = [
+const servicios = [
 
     new servicio(1, ' creacion y mantenimiento de pagina wed', 6.99),
     new servicio(2, ' creacion y mantenimiento de redes sociales', 7.99),
@@ -17,4 +17,6 @@ const servicio = [
     new servicio(4, ' seo y posicionamiento en motores de busqueda', 6.99),
 
 ]
+
+console.log(servicios);
 
